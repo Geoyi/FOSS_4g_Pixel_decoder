@@ -1,6 +1,6 @@
 FROM nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04
 
-MAINTAINER luca.grazioli@outlook.com
+MAINTAINER nana@developmentseed.org
 
 RUN apt-get update && apt-get install -y \
         wget \
